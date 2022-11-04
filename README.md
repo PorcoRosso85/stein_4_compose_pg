@@ -1,18 +1,35 @@
-# Djangochat
+# About
+This repo bring us a simple chat app, which is based on these techs
+* Docker / Compose
+* python / Django
+* WebSocket
+* Postgres
 
-Learn how to build a real-time chat application using Django and Channels. The design is made using Tailwind CSS.
+TODO git/mp4 here
 
-This repository is a part of a video tutorial on my YouTube channel: Code With Stein
 
-## YouTube
-* [Part 1](https://www.youtube.com/watch?v=OyUrMENgZRE)
-* [Part 2](https://www.youtube.com/watch?v=r8LN9yxLgdY)
-* [Part 3](https://www.youtube.com/watch?v=0CZuO5TV8SI)
+## Usage
+### Dependency
+* Docker
 
-My channel:
-[CodeWithStein](https://www.youtube.com/channel/UCfVoYvY8BfTDeF63JQmQJvg/?sub_confirmation=1)
+### Command
+```sh 
+# clone this repo
+git clone 
+
+# compose containers app"web" and "db" with Docker compose
+docker compose up
+```
 
 ## Author
-This repository and video is created by CodeWithStein. Check out my website for more information.
+Por
 
-[Code With Stein - Website](https://codewithstein.com)
+## Diagram
+```mermaid
+flowchart LR
+
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
+```
